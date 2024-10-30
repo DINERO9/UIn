@@ -5,7 +5,7 @@ local WindUI = {
 }
 local RunService = game:GetService("RunService")
 
-local Themes = require("./Themes/init")
+local Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/DINERO9/UIn/refs/heads/main/src/Themes/init.lua"))()
 local Creator = require("./Creator")
 local New = Creator.New
 
